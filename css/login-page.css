@@ -1,0 +1,148 @@
+/* screen - login-page */
+
+.login-page {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 55px 51px;
+  width: 1440px;
+}
+
+.login-page .fortelogo {
+  align-self: flex-start;
+  height: 35px;
+  width: 35px;
+}
+
+.login-page .create-an-account {
+  height: 65px;
+  letter-spacing: 0;
+  margin-top: 147px;
+  min-width: 510px;
+  text-align: center;
+}
+
+.login-page .text-7 {
+  height: 52px;
+  letter-spacing: 0;
+  margin-top: 45px;
+  min-width: 612px;
+  text-align: center;
+}
+
+.login-page .username {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 5.0px;
+  margin-top: 45px;
+  min-width: 505px;
+}
+
+.login-page .overlap-group {
+  align-items: center;
+  background-color: var(--mine-shaft);
+  border-radius: 14px;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  min-width: 503px;
+  padding: 0 200px;
+}
+
+.login-page .username-1 {
+  background-color: transparent;
+  border: 0;
+  height: 26px;
+  letter-spacing: 0;
+  padding: 0;
+  text-align: center;
+  width: 96px;
+}
+
+.login-page .username-1::placeholder {
+  color: #b7b7b799;
+}
+
+.login-page .email {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 5.0px;
+  margin-top: 28px;
+  min-width: 505px;
+}
+
+.login-page .overlap-group2 {
+  align-items: center;
+  background-color: var(--mine-shaft);
+  border-radius: 14px;
+  display: flex;
+  height: 66px;
+  justify-content: flex-end;
+  min-width: 503px;
+  padding: 0 221px;
+}
+
+.login-page .email-1 {
+  background-color: transparent;
+  border: 0;
+  height: 26px;
+  letter-spacing: 0;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+}
+
+.login-page .email-1::placeholder {
+  color: #b7b7b799;
+}
+
+.login-page .password {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 3.0px;
+  margin-top: 28px;
+  min-width: 505px;
+}
+
+.login-page .password-1 {
+  background-color: transparent;
+  border: 0;
+  height: 26px;
+  letter-spacing: 0;
+  padding: 0;
+  text-align: center;
+  width: 96px;
+}
+
+.login-page .password-1::placeholder {
+  color: #b7b7b799;
+}
+
+.login-page .submitbutton {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 5.0px;
+  margin-top: 45px;
+  min-width: 141px;
+}
+
+.login-page .overlap-group-1 {
+  align-items: center;
+  background-color: #ff0000;
+  border-radius: 6px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  min-width: 139px;
+  padding: 0 33px;
+}
+
+.login-page .submit {
+  height: 26px;
+  letter-spacing: 0;
+  min-width: 72px;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+:root { 
+  --black: #000000;
+  --mine-shaft: #313131;
+  --pink-swan: #b7b7b7;
+  --white: #ffffff;
+ 
+  --font-size-l: 15px;
+  --font-size-m: 14px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 20px;
+  --font-size-xxxl: 25px;
+  --font-size-xxxxl: 50px;
+ 
+  --font-family-helvetica-regular: "Helvetica-Regular", Helvetica;
+  --font-family-ibm_plex_mono: "IBM Plex Mono", Helvetica;
+  --font-family-ibm_plex_mono-light: "IBM Plex Mono-Light", Helvetica;
+}
+.ibmplexmono-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexmono-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexmono-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexmono-normal-white-50px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexmono-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexmono-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ibmplexmono-normal-pink-swan-20px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
